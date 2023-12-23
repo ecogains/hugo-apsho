@@ -1,16 +1,16 @@
 #  icons can be found on https://themify.me/themify-icons
 ---
 enable: true
-title: You can benefit more than you think
+title: Možete li da zamislite da reciklirate otpad i da za to budete plaćeni?
 services:
-  - icon: ti-settings
-    title: No Setup
-    description: They generate alignment and engagement
+  - icon: ti-heart
+    title: Zdrave navike
+    description: Doprinoseći očuvanju životne sredine, možete zaraditi novac
 
   - icon: ti-check-box
-    title: Free Trial
-    description: They generate alignment and engagement
+    title: Besplatna aplikacija
+    description: Koristite aplikaciju potpuno besplatno bez ikakvih ograničenja
 
-  - icon: ti-key
-    title: Quick Access
-    description: They generate alignment and engagement
+  - icon: ti-money
+    title: Lako do pogodnosti
+    description: Pogodnosti koje možete ostvariti su na dohvat ruke

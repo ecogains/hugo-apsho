@@ -1,19 +1,14 @@
 ---
 enable: true
-title: Frequently asked questions
-description: The quick brown fox jumps over a lazy dog. DJs flock by when MTV ax Error6251 is the best. quiz prog. Junk MTV quiz graced by fox whelps.
+title: Najčešća pitanja
+description: Ovo su najčešća pitanja koja dobijamo od naših sugrađana. Ukoliko imate neko pitanje koje nije navedeno, slobodno nas kontaktirajte.
 faqItem:
-  - question: How to Install Apsho?
-    answer: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus a, expedita dolorum consequatur magni commodi tempore nesciunt soluta veritatis corporis iste labore eaque aliquam, sapiente debitis dignissimos aut exercitationem minima.
+  - question: Kada će biti dostupna aplikacija?
+    answer: Aplikacija će biti dostupna u toku 2024. godine.
     dataTarget: One
     show: show
 
-  - question: Is there any age limit?
-    answer: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus a, expedita dolorum consequatur magni commodi tempore nesciunt soluta veritatis corporis iste labore eaque aliquam, sapiente debitis dignissimos aut exercitationem minima.
+  - question: Koliko ću moći zaraditi preko aplikacije?
+    answer: Preko aplikacije možete zaraditi koliko god želite. Sve zavisi od vaših reciklažnih navika.
     dataTarget: Two
-    show: 
-    
-  - question: How much it costs to get started?
-    answer: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus a, expedita dolorum consequatur magni commodi tempore nesciunt soluta veritatis corporis iste labore eaque aliquam, sapiente debitis dignissimos aut exercitationem minima.
-    dataTarget: Three
-    show: 
+    show:

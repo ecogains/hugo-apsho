@@ -1,9 +1,9 @@
 ---
-enable: true
-comment1: Ultimate Experiences
-comment2: with Story, Emotion and Purpose
-buttonName: Available on
+enable: false
+comment1: Novo na tržištu
+comment2: sa mogućnostima koje nijedna druga aplikacija nema
+buttonName: Uskoro na
 button1text: Apple Store
 button2text: Google Play
 image: images/video/video.png
-video: https://www.youtube.com/watch?v=swnudbCnccs
+video:

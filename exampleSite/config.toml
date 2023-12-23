@@ -1,20 +1,20 @@
 # MAIN base
-baseURL = "https://apsho-hugo.netlify.app/"
-languageCode = "en-us"
-title = "Apsho | App landing template"
+baseURL = "https://ecogains.github.io/"
+languageCode = "sr-Latn"
+title = "EcoGains"
 theme = "apsho"
 
 # Navigation Bar
 [[menu.main]]
-    name = "Home"
-    url = "#hero"
+    name = "Početna"
+    url = "#home"
     weight = 1
 [[menu.main]]
-    name = "About"
+    name = "O nama"
     url = "#feature"
     weight = 2
 [[menu.main]]
-    name = "Services"
+    name = "Najčešća pitanja"
     url = "#faq"
     weight = 3
 [[menu.main]]
@@ -24,45 +24,44 @@ theme = "apsho"
 
 # Footer Sitemap
 [[menu.sitemap]]
-    name = "Home"
+    name = "Početna"
     url = "#"
     weight = 1
 [[menu.sitemap]]
-    name = "Latest Article"
+    name = "Blog"
     url = "/blog"
     weight = 2
 [[menu.sitemap]]
-    name = "Privacy & Policy"
+    name = "Privatnost i uslovi korišćenja"
     url = "/privacy"
     weight = 3
 [[menu.sitemap]]
-    name = "Contact"
+    name = "Kontakt"
     url = "/contact"
     weight = 4
 
 # Footer Address
 [params.address]
-address = "23 Khan Niketon, Grand Street, NYK."
-email = "apsho@example.com"
-phone = "+(448) 833 5272 332"
+address = "Banja Luka, BiH"
+email = "ecogains.ba@gmail.com"
+phone = "+ (387)"
 
 # Footer Social
 [params.social]
-facebook = "https://www.facebook.com/pg/staticmania"
-twitter = "https://twitter.com/static_mania"
-github = "https://github.com/StaticMania"
+facebook = ""
+twitter = ""
+github = "https://github.com/ecogains/test"
 
 [params]
 
 # Header
 logo = "images/logo.png"
-fabFormURL = "https://fabform.io/f/zWMBVeW"
-googleAnalytics = "UA-175025671-2"
+googleAnalytics = ""
 
 # Footer
-footerTitle = "Get the latest app updates"
-copyright1 = "All right reserved"
-copyright2 = "Copyright ©  <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a> {year}"
+footerTitle = "Prijavite se na našu mailing listu"
+copyright1 = "Sva prava zadržana"
+copyright2 = "Copyright ©  <a href=\"https://github.com/ecogains\" target=\"_blank\">EcoGains </a> {year}"
 
 #contact
-email = "help@staticmania.com"
+email = "ecogains.ba@gmail.com"
