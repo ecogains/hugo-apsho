@@ -81,6 +81,8 @@ $(document).ready(function () {
         },
       },
     ],
+
+
   });
 
   // Testimonial slider
@@ -113,6 +115,7 @@ $(document).ready(function () {
 
   // Tooltip
   $(".footer-tooltip").tooltip();
+
 });
 
 // sticky nav
@@ -123,3 +126,4 @@ $(window).on("scroll", function () {
     $("nav").removeClass("nav-bg");
   }
 });
+
