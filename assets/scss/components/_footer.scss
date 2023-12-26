@@ -5,6 +5,8 @@
   background: rgba(28, 87, 57, 0.4);
   background-position: top center;
   background-size: cover;
+  color: #fff;
+  
   @include mobile {
     padding: 120px 0 50px;
   }
