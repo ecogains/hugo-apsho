@@ -23,13 +23,15 @@
           action="{{ .Site.Params.fabFormURL }}"
           method="POST"
           class="contact-form row"
-        >
+          name="contact-form"
+          data-netlify="true"
+          >
           <div class="col-lg-6">
             <input
               type="text"
               class="form-control"
               placeholder="Ime ili naziv kompanije"
-              name="Name"
+              name="name"
               required
             />
           </div>
