@@ -21,11 +21,13 @@
         <form
           id="contact-form"
           action="/contact/"
-          method="POST"
+          method="post"
           class="contact-form row"
-          name="contact-form"
+          name="contact"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
           >
+          <input type="hidden" name="form-name" value="contact" />
           <div class="col-lg-6">
             <input
               type="text"
