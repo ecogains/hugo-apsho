@@ -6,11 +6,11 @@ window.addEventListener("DOMContentLoaded", function () {
   function success() {
     form.reset();
     button.style = "display: none";
-    status.innerHTML = "Thanks! Contact form is submitted successfully.";
+    status.innerHTML = "Hvala! Uspješno ste poslali poruku.";
   }
 
   function error() {
-    status.innerHTML = "Oops! There was a problem.";
+    status.innerHTML = "Došlo je do greške. Pokušajte ponovo.";
   }
 
   // handle the form submission event
