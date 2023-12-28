@@ -61,7 +61,7 @@
                       <input type="hidden" name="anticsrf" value="true" /> -->
                   </div>
                   <!-- Privacy policy -->
-                  <div class="privacy-policy">
+                  <div class="privacy-policy" style="margin-top: 1em;">
                     Vaše informacije će biti korišćene samo za prijavu na majling
                     listu. Dobijaćete poruke vezane za EcoGains samo kada ima novog
                     sadržaja na našem blogu. Nećemo iskoristiti tvoje informacije za
@@ -123,7 +123,7 @@
           {{ $address := .Site.Params.address }}
           <div class="footer-widget-list">
             <ul>
-              <li><a href="tel:{{ $address.phone }}"><i class="ti-mobile"></i>{{ $address.phone }}</a></li>
+              <!-- <li><a href="tel:{{ $address.phone }}"><i class="ti-mobile"></i>{{ $address.phone }}</a></li> -->
               <li><a href="mailto:{{ $address.email }}"><i class="ti-email"></i>{{ $address.email }}</a></li>
               <li>
                 <p><i class="ti-pin"></i>{{ $address.address }}</p>
