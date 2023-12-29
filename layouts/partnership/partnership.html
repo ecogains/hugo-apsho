@@ -1,0 +1,99 @@
+{{ define "main" }} {{ "<!--contactHeader.html-->" | safeHTML }}
+<section class="page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>{{ .Title }}</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ "<!--contactForm.html-->" | safeHTML }}
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <form
+          id="contact-form"
+          method="post"
+          class="contact-form row"
+          name="partnership-contact"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          >
+          <input type="hidden" name="form-name" value="partnership-contact" />
+          <div class="col-lg-6">
+            <label for="name">Naziv kompanije *</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Naziv kompanije"
+              name="name"
+              required
+            />
+          </div>
+          <div class="col-lg-6">
+            <label for="email"> Adresa e-pošte *</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Adresa e-pošte"
+              name="email"
+              required
+            />
+          </div>
+
+          <div class="col-12">
+            <label for="contactPreference">Način kontakta: *</label>
+            <select class="form-control" id="contactPreference" name="contactPreference" required>
+              <option value="" disabled selected hidden>Izaberite način kontakta</option>
+              <option value="sastanak">Želim organizaciju sastanka</option>
+              <option value="ponuda">Želim da mi pošaljete ponudu</option>
+            </select>
+          </div>
+
+          <div class="col-12">
+            <label for="message">Poruka</label>
+            <textarea
+              class="form-control"
+              placeholder="Ovdje možete unijeti dodatne informacije o vašoj kompaniji i postaviti nam pitanja."
+              cols="30"
+              rows="7"
+              name="message"
+            ></textarea>
+          </div>
+          <div class="col-6 align-self-center">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="termCondition"
+                name="terms"
+                required
+                title="Prihvatite uslove korišćenja za nastavak"
+              />
+              <label class="form-check-label" for="termCondition">
+                Prihvatam <a href="#">uslove korišćenja</a>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 text-right">
+            <button
+              id="contact-form-button"
+              class="btn btn-primary-filled"
+              type="submit"
+              title="Kontaktirajte nas!"
+            >
+              Pošalji
+            </button>
+          </div>
+          <div class="col-12">
+            <p id="contact-form-status" class="mt-3"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
