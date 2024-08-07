@@ -28,6 +28,7 @@
           >
           <input type="hidden" name="form-name" value="contact" />
           <div class="col-lg-6">
+            <label for="name">Ime ili naziv kompanije *</label>
             <input
               type="text"
               class="form-control"
@@ -37,6 +38,7 @@
             />
           </div>
           <div class="col-lg-6">
+            <label for="email">Adresa e-pošte *</label>
             <input
               type="email"
               class="form-control"
@@ -46,14 +48,17 @@
             />
           </div>
           <div class="col-12">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Predmet"
-              name="subject"
-            />
+            <label for="subject">Predmet *</label>
+            <select class="form-control" id="subject" name="subject" required>
+              <option value="" disabled selected hidden>Izaberite predmet</option>
+              <option value="pitanje">Postavljanje pitanja</option>
+              <option value="saradnja">Predlažem saradnju</option>
+              <option value="sastanak">Želim zakazati sastanak</option>
+              <option value="investicija">Želim investirati</option>
+              <option value="drugo">Drugo</option>
           </div>
           <div class="col-12">
+            <label for="message">Poruka *</label>
             <textarea
               class="form-control"
               placeholder="Poruka"
